@@ -1,0 +1,3 @@
+select distinct order_number,comment_text from work.contr_obligations_tdc_work_edi_exctract_filtered;
+
+select comment_text,* from work.contr_obligations_tdc_work_edi_exctract_filtered where order_number=210053216;

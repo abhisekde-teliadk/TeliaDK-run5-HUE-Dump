@@ -1,0 +1,15 @@
+#run5
+mysql -h mydbrun5d.c4wxxbxxfqvz.eu-west-1.rds.amazonaws.com -P 3306 -u dbroot -p34jkhljui431p
+
+huedb_3oujq8llb183ut5vmo20mq61d4, user_data
+
+mysql -h mydbrun5d.c4wxxbxxfqvz.eu-west-1.rds.amazonaws.com -P 3306 -u dbroot -p34jkhljui431p -N -s -e "select * from desktop_document2 where id = 14617" huedb_3oujq8llb183ut5vmo20mq61d4
+
+name, statement_raw
+
+#run6
+huedb_r770adpu10ohqqjcecn41fg0g1
+
+mysql -h mydbrun5d.c4wxxbxxfqvz.eu-west-1.rds.amazonaws.com -P 3306 -u dbroot -p34jkhljui431p 
+
+mysql -h mydbrun6d.c4wxxbxxfqvz.eu-west-1.rds.amazonaws.com -P 3306 -u dbroot -p34jkhljui431p -e "select * from auth_user where username = mxa7101" huedb_r770adpu10ohqqjcecn41fg0g1
